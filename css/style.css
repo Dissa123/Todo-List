@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body{
+    width: 100%;
+    background-color: cadetblue;
+}
+
+.container{
+    width: 30rem;
+    margin:2rem auto;
+}
+
+/* align the title section */
+.container .title{
+    text-align: center;
+    color: #ffff;
+    font-size:3rem;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+
+/* style todo add section*/
+.container .form{
+    background: #ffff;
+    margin-top: 1rem;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.form input{
+    flex: 1;
+    padding: 0.7rem;
+    border: none;
+    background-color:transparent;
+    outline: none;
+}
+
+.form .btn{
+    padding: 0.7rem;
+    background-color: darkblue;
+    color:white;
+    cursor: pointer;
+    border:none;
+}
+
+/* todo list */
+.list .todo{
+    display: flex;
+    background: #ffff;
+    margin-top: 2rem;
+    padding: 0.5rem;
+    gap: 0.5rem;
+}
+
+.list span{
+    cursor: pointer;
+}
